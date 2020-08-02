@@ -1,0 +1,6 @@
+package com.in28minutes.microservices;
+
+@Configuration
+public class Configuration {
+
+}

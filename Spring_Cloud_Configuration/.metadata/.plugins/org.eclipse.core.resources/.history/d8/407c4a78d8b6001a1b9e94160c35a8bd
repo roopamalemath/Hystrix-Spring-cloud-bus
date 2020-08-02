@@ -1,0 +1,11 @@
+package com.in28minutes.microservices;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+// anything starting from limits-service from application.properties i want to read them
+@ConfigurationProperties("limits-service")
+public class Configuration {
+
+}
